@@ -1,10 +1,10 @@
-# Anti-Theft Alarm System
+ Anti-Theft Alarm System
 
 This project uses a PIR motion sensor with NodeMCU ESP8266 to detect unauthorized motion and alert users via a buzzer, LED indicators, and Telegram call/message using CallMeBot API.
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 - `Code.cpp` - Arduino sketch for NodeMCU
 - `README.md` - Run instructions and overview
@@ -12,11 +12,11 @@ This project uses a PIR motion sensor with NodeMCU ESP8266 to detect unauthorize
 
 ---
 
-## 🚀 How to Run the Project
+🚀 How to Run the Project
 
-### 🔧 Hardware Setup
+ Hardware Setup
 
-1. **Components Needed:**
+1. Components Needed:**
    - NodeMCU ESP8266
    - PIR Sensor
    - Red and Green LEDs
@@ -24,7 +24,7 @@ This project uses a PIR motion sensor with NodeMCU ESP8266 to detect unauthorize
    - Jumper Wires
    - Breadboard (optional)
 
-2. **Wiring Guide:**
+2. Wiring Guide:**
    - PIR Sensor Output → D5  
    - Red LED → D1  
    - Green LED → D3  
@@ -35,7 +35,7 @@ This project uses a PIR motion sensor with NodeMCU ESP8266 to detect unauthorize
 
 ---
 
-### 💻 Software Setup
+ 💻 Software Setup
 
 1. Install [Arduino IDE](https://www.arduino.cc/en/software)  
 2. Add the ESP8266 board to Arduino IDE via Board Manager  
